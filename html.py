@@ -12,14 +12,14 @@ import webbrowser
 
 def make_header():
     doctype = '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">\n'
-    header = doctype + '<html><head>\n<title>Results</title>\n</head>\n'
+    header = doctype + '<html><head>\n<title>My Title</title>\n</head>\n'
     return header
 
 
 def make_body(content):
     center = '<div align="center">\n'
     table = '<table width ="900"><tr><td>\n'
-    heading = '<h2>Results</h2>\n'
+    heading = '<h2>My Very Own Heading</h2>\n'
     end_table = '</td></tr></table>\n'
     body = '<body>' + center + table + heading + content + end_table + '</div></body>\n'
     return body
